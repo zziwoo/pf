@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+*, *::after, *::before {box-sizing: border-box;}
+
+body 
+{font-size:14px; line-height: 1.2rem; color: #000; background: #fff; display: block; margin: 0; padding: 0;}
+#header 
+{position: relative; z-index: 10; height: 80px; padding: 10px; text-align: center; vertical-align: top;}
+#header img 
+{width: 100%; height: auto; margin-top: -10px;}
+
+#contents 
+{padding: 20px 10px; min-height: 650px;}
+.home
+{padding: 0px;}
+
+.video_text
+{display: block; font-size: 8px; text-align: right; letter-spacing: 0px; margin: 0px auto 30px; font-family: "helvetica"; font-weight: 700;}
+
+.main 
+{width: 100%; height: 100%; float: left; position: relative;}
+.main .banner 
+{position: relative; width: 100%; display: inline-block; padding: 10px 0 0 0; margin-top: 3rem;}
+.main .banner:first-child
+{padding: 6px 0 0 0;}
+.main .banner .title
+{width: 100%; color: #000; text-align: center; padding: 10px 0 15px 0; font-size: 14px; font-family: 'Spoqa Han Sans Neo', 'sans-serif';}
+.main .banner a 
+{text-decoration: none; color: #000;}
+.main .image
+{opacity: 1; /*transition: all 0.3s;*/}
+.main .image .banner_image
+{width: 100%; height: auto; vertical-align: middle;}
+
+#hamburger-icon
+{position: fixed; bottom: 3px; left: 10px; height: 30px; width: 30px; cursor: pointer; z-index: 5;}
+#hamburger-icon .line1 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0;}
+#hamburger-icon .line2 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 7px;}
+#hamburger-icon .line3 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 14px;}
+
+.company 
+{float: left; padding: 10px 10px 60px 10px; font: lighter 12px 'Spoqa Han Sans Neo','sans-serif'; line-height: 1.8; text-transform: uppercase; margin-top: 3rem;}
+.company .info
+{width: 100%; float: left; text-align: left; padding: 0 0 25px 0;}
+.company .info li 
+{list-style: none;}
+.company .util 
+{width: 100%; float: left; padding: 0 0 20px 0;}
+.company .time
+{width: 100%; float: left; padding: 0 0 25px 0;}
+
+.cart
+{position: fixed; bottom: 18px; right: 0px; z-index: 7;}
+.cart img 
+{display: inline-block; width: 22px; height: 22px; text-align: center; float: right; margin: -5px 10px;}
+
+.bottom 
+{position: fixed; bottom: 0; left: 0; width: 100%; height: 48px; line-height: 48px; background: #fff; padding: 0 0 0 60px;}
+.bottom ul 
+{display: block;}
+.bottom ul li 
+{margin: 0 20px 0 0; float: left; text-align: center;}
+.bottom ul li a 
+{text-decoration: none; color: #000; font-family: 'Spoqa Han Sans Neo','sans-serif'; font-weight: 300; font-size: 15px;}

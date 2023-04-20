@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARTIN PLAN</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+
+    <style>
+        *{ font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <img src="img/martinplan_logo_black_resize.png" alt="logo">
+        <!-- 로고 수정 -->
+    </div>
+    <div id="member_join">
+        <h2>JOIN</h2>
+    <div class="wrap">
+    <ul class="form">
+        <li>
+            <label class="join">ID</label>
+            <input id="member_id" name="member_id" label="아이디" placeholder="아이디" type="text">
+        </li>
+        <li>
+            <label class="join">PASSWORD</label>
+            <input id="passwd" name="passwd" label="비밀번호" maxlength="16" 0="disabled" type="password">
+            <span class="txt">(영문 대소문자/숫자/특수문자 2중 2가지 이상 조합, 10자~16자)</span>
+        </li>
+        <li>
+            <label class="join">Password Check</label>
+            <input id="passwdch" name="passwdch" label="비밀번호 확인" msg="비밀번호가 일치하지 않습니다." maxlength="16" 0="disabled" type="password">
+        </li>
+        <li id="nametitle">
+            <label class="join">Name</label>
+            <input id="name" name="name" label="이름" maxlength="30" type="text">
+        </li>
+        <li class="phone">
+            <label class="join">Mobile</label>
+            <select name="mobile1" id="mobile1" label="휴대전화">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="016">017</option>
+                <option value="016">018</option>
+                <option value="016">019</option>
+            </select>
+            -
+            <input id="mobile2" name="mobile" maxlength="4" label="휴대전화" type="text">
+            -
+            <input id="mobile3" name="mobile" maxlength="4" label="휴대전화" type="text"> 
+        </li>
+        <li class="email">
+            <label for="join">E-mail</label>
+            <input id="email" name="email" label="이메일" type="text">
+        </li>
+    </ul>
+    <div class="button">
+        <button type="button" class="join" onclick="return false;">JOIN</button>
+        <button type="button" class="cancle" onclick="return false;">Cancle</button>
+    </div>
+    </div>
+    
+        <div class="cart">
+            <a href="#" alt="cart">
+                <img src="img/shopping-cart.png" alt="cart">
+            </a>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li>
+                    <a href="#">LOGIN</a>
+                </li>
+                <li>
+                    <a href="#">MY PAGE</a>
+                </li>
+                <li>
+                    <a href="#">SEARCH</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="hamburger-icon">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+    </div>
+</body>
+</html>

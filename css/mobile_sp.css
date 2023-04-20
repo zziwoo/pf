@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*, *::after, *::before {box-sizing: border-box;}
+
+body 
+{font-size:14px; line-height: 1.2rem; color: #000; background: #fff; display: block; margin: 0; padding: 0;}
+
+#header
+{position: relative; z-index: 10; height: 80px; padding: 10px; text-align: center; vertical-align: top; background: #fff;}
+#header #logo img
+{width: 100%; height: auto; margin-top: -10px; position: ;}
+
+#sub_contents
+{position: relative; margin: 0; width: 100%; 
+    /*padding-top: 47px;*/}
+#sub_contents .indigater
+{overflow: hidden; z-index: 1; width: 100%; background: #fff; position: fixed; height: 50px;}
+.indigater ul
+{display: flex; justify-content: center; flex-wrap: wrap; overflow-x: auto; width: 100%; padding: 18px 16.66px;}
+.indigater ul li
+{padding: 10px; list-style: none;}
+.indigater ul li a
+{text-decoration: none; color: #000;}
+
+.product
+{width: 100%; margin: 0; padding-top: 50px;}
+.product .product_list
+{width: 100%; font-size: 0;}
+.product .product_list li
+{width: 50%; display: inline-block; font-size: 10px; vertical-align: top;}
+.product .product_list li .thumbnail
+{width: 100%;}
+.product .product_list li .thumbnail img
+{width: 100%;}
+.product .product_list li .information
+{margin: 0 7px; min-height: 10px; text-align: center; line-height: 1.6; width: 100%; padding: 20px 0;}
+.product .product_list li .information .name
+{line-height: 1.2rem; padding: 0 0 5px; text-align: center;}
+.name a
+{text-decoration: none; color: #000;}
+
+
+/* .product-list
+{padding-top: 50px; margin: 0; text-align: center;}
+.product-list ul
+{margin-top: 30px;}
+.product-list [class="grid"]
+{display: table; table-layout: fixed; width: 100%; padding: 5px 0;}
+
+.product-list ul
+{display: table; width: 100%;}
+.product-list .menucategory li
+{position: relative; width: 50%; display: inline-block; margin: 0 0 0; vertical-align: top; font-size: 11px; line-height: 1.2rem; letter-spacing: normal;}
+.product-list.thumbnail
+{padding-bottom: 70px !important;}
+.product-list.thumbnail img
+{width: 100%; vertical-align: middle;} */
+
+#hamburger-icon
+{position: fixed; bottom: 3px; left: 10px; height: 30px; width: 30px; cursor: pointer; z-index: 5;}
+#hamburger-icon .line1 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0;}
+#hamburger-icon .line2 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 7px;}
+#hamburger-icon .line3 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 14px;}
+
+.company 
+{float: left; padding: 10px 10px 60px 10px; font: lighter 12px 'Spoqa Han Sans Neo','sans-serif'; line-height: 1.8; text-transform: uppercase; margin-top: 3rem;}
+.company .info
+{width: 100%; float: left; text-align: left; padding: 0 0 25px 0;}
+.company .info li 
+{list-style: none;}
+.company .util 
+{width: 100%; float: left; padding: 0 0 20px 0;}
+.company .time
+{width: 100%; float: left; padding: 0 0 25px 0;}
+
+.cart
+{position: fixed; bottom: 18px; right: 0px; z-index: 7;}
+.cart img 
+{display: inline-block; width: 22px; height: 22px; text-align: center; float: right; margin: -5px 10px;}
+
+.bottom 
+{position: fixed; bottom: 0; left: 0; width: 100%; height: 48px; line-height: 48px; background: #fff; padding: 0 0 0 60px;}
+.bottom ul 
+{display: block;}
+.bottom ul li 
+{margin: 0 20px 0 0; float: left; text-align: center;}
+.bottom ul li a 
+{text-decoration: none; color: #000; font-family: 'Spoqa Han Sans Neo','sans-serif'; font-weight: 300; font-size: 15px;}

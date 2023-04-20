@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+*, *::after, *::before {box-sizing: border-box;}
+
+body 
+{font-size:14px; line-height: 1.2rem; color: #000; background: #fff; display: block; margin: 0; padding: 0; font-family: 'Spoqa Han Sans Neo', 'sans-serif';}
+
+#header 
+{position: relative; z-index: 10; height: 80px; padding: 10px; text-align: center; vertical-align: top;}
+#header img 
+{width: 100%; height: auto; margin-top: -10px;}
+ 
+#member_join
+{padding: 50px 10px; min-height: 650px;}
+
+#member_join h2 
+{width: 100%; text-align: center; font-size: 12px; margin: 0 0 50px;}
+
+.wrap
+{border: none; vertical-align: top;}
+/* {max-width: 400px; margin: 0 auto; position: relative; top: 130px;} */
+.wrap .form
+{position: relative; margin: 0px 14px 0; font-size: 11px;}
+.form li 
+{list-style: none;}
+
+.form li input
+{width: 100%; height: 43px; margin: 0 0 20px; line-height: 1.6;}
+
+.form li > label
+{display: block; margin: 15px 0 5px; font-size: 12px; font-weight: bold; text-transform: uppercase;}
+
+input[type=text] 
+{width: 100%; border: 0;background: transparent; padding: 5px 0; color: #000; font-size: 11px; font-family: 'Spoqa Han Sans Neo', 'sans-serif'; border-bottom: 1px solid #000;}
+
+input[type=password]
+{width: 100%; border: 0; background: transparent; padding: 5px 0; color: #000; font-size: 11px; font-family: 'Spoqa Han Sans Neo', 'sans-serif'; border-bottom: 1px solid #000;}
+
+#passwd
+{margin: 0px;}
+
+.txt
+{font-size: 11px; line-height: 26px;}
+
+.phone select
+{max-width: 60px; margin-right: 5px;}
+
+select
+{width: 100%; box-sizing: border-box; padding: 4px; font-size: 12px; font-family: inherit; border: none;  background: transparent;}
+
+.phone input
+{max-width: 60px; margin: 0 5px; padding: 7px 2px; text-align: center;}
+
+#member_join .button
+{width: 100%; padding: 5px 14px;}
+.button
+{text-align: center; margin: 15px auto; padding: 30px 0; width: 100%; display: inline-block;}
+.button a
+{text-align: center; text-decoration: none; list-style: none;}
+
+.button .join
+{width: 50%; float: left; height: 36px; line-height: 36px; padding: 0 10px; font-size: 13px; border: 1px solid #505759; background: #fff; min-width: 90px; vertical-align: middle;}
+.button .cancle
+{width: 50%; float: right; height: 36px; line-height: 36px; padding: 0 10px; font-size: 13px; border: 1px solid #000; background: #000; color: #fff; min-width: 90px; vertical-align: middle;}
+
+/* .button .join
+{width: 50%; float: left; height: 36px; line-height: 36px; padding: 0 10px; font-size: 13px; border: 1px solid #000; background: #000; color: #fff; min-width: 90px; vertical-align: middle;}
+.button .cancle
+{width: 50%; float: right; height: 36px; line-height: 36px; padding: 0 10px; font-size: 13px; border: 1px solid #505759; background: #fff; color: #505759; min-width: 90px; vertical-align: middle;} */
+
+
+#hamburger-icon
+{position: fixed; bottom: 3px; left: 10px; height: 30px; width: 30px; cursor: pointer; z-index: 5;}
+#hamburger-icon .line1 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0;}
+#hamburger-icon .line2 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 7px;}
+#hamburger-icon .line3 
+{position: absolute; display: block; background: #000; width: 24px; height: 4px; left: 0; top: 14px;}
+
+.cart
+{position: fixed; bottom: 18px; right: 0px; z-index: 7;}
+.cart img 
+{display: inline-block; width: 22px; height: 22px; text-align: center; float: right; margin: -5px 10px;}
+
+.bottom 
+{position: fixed; bottom: 0; left: 0; width: 100%; height: 48px; line-height: 48px; background: #fff; padding: 0 0 0 60px;}
+.bottom ul 
+{display: block;}
+.bottom ul li 
+{margin: 0 20px 0 0; float: left; text-align: center;}
+.bottom ul li a 
+{text-decoration: none; color: #000; font-family: 'Spoqa Han Sans Neo','sans-serif'; font-weight: 300; font-size: 15px;}
